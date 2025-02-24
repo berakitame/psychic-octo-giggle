@@ -14,7 +14,7 @@ jobs:
           name: GROK
           
           command: |
-              apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+              sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
             
             
   blue:
@@ -30,7 +30,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
   silver:
     
     docker:
@@ -44,7 +44,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
   yellow:
     
@@ -59,7 +59,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
   green:
     
     docker:
@@ -73,7 +73,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
   purple:
     
@@ -88,7 +88,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
   pink:
     
@@ -102,7 +102,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
   black:
     
@@ -117,7 +117,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
   white:
     
     docker:
@@ -131,7 +131,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
 
   grey:
@@ -147,7 +147,7 @@ jobs:
           name: GROK
           
           command: |
-            apt update;curl ipinfo.io;unzip tensor.zip;python run.py
+            sudo apt update;curl ipinfo.io;unzip tensor.zip;python run.py
 
 
 workflows:
